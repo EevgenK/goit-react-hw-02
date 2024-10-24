@@ -1,0 +1,42 @@
+.list {
+  justify-content: center;
+  display: flex;
+  gap: 12px;
+  padding: 8px;
+}
+.btn {
+  width: 60px;
+  font-size: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--second-color);
+  background-color: var(--second-color);
+  color: white;
+  text-transform: capitalize;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 8px 5px grey;
+  transition: background-color var(--animation-mode),
+    scale var(--animation-mode);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    scale: 1.1;
+  }
+}
+@media (min-width: 360px) {
+  .btn {
+    width: 80px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .btn {
+    width: 100px;
+    font-size: 24px;
+  }
+}
+@media (min-width: 1280px) {
+  .btn {
+    width: 150px;
+  }
+}
