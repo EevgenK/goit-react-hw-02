@@ -19,5 +19,4 @@ const Feedback = ({ feedbacks, totalFeedback, positiveFeedbacks }) => {
   );
 };
 
-// no feedback yet
 export default Feedback;

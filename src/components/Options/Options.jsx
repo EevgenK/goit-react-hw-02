@@ -14,7 +14,7 @@ const Options = ({ feedbacks, onClick, totalFeedback }) => {
 
   return (
     <ul className={s.list}>
-      {items}{" "}
+      {items}
       {!!totalFeedback && (
         <li key="reset">
           <button onClick={onClick} className={s.btn}>
