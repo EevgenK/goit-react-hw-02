@@ -1,7 +1,6 @@
 import s from "./Feedback.module.css";
 
 const Feedback = ({ feedbacks, totalFeedback, positiveFeedbacks }) => {
-  console.log(positiveFeedbacks);
   const items = [];
   for (let key in feedbacks) {
     items.push(
